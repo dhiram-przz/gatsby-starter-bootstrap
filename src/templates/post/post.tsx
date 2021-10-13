@@ -41,7 +41,7 @@ const Post: React.FC<Props> = ({ data, options }: Props) => {
       <div className="container">
         <div className="info">
           <Link style={{ boxShadow: 'none' }} to={path}>
-            <h1>{frontmatter?.title}</h1>
+            <h1>{frontmatter?.title}QWERTY</h1>
             <time dateTime={frontmatter?.date}>{frontmatter?.date}</time>
           </Link>
           <Badge label={frontmatter?.category || ''} primary={true} />
